@@ -34,5 +34,5 @@ The website features two main galleries:
 
 ## Deployment Link
 
-Visit the live site here: [We Bare Bears Gallery](https://webarebearsgallery.com)
+Visit the live site here: [We Bare Bears Gallery](hasteddd.github.io/WD-Seatwork-3/)
 
