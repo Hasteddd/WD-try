@@ -1,0 +1,87 @@
+/* Keyframes for background and movement animation 1 */
+@keyframes animation1 {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+/* Keyframes for background and movement animation 2 */
+@keyframes animation2 {
+    0%, 100% { background-color: #74b9ff; transform: translateY(0); }
+    25% { background-color: #55efc4; transform: translateY(-10px); }
+    50% { background-color: #ff7675; transform: translateY(10px); }
+    75% { background-color: #a29bfe; transform: translateY(-5px); }
+}
+
+/* Keyframes for background and movement animation 3 */
+@keyframes animation3 {
+    0% { transform: translateY(0) rotate(0); }
+    50% { transform: translateY(-10px) rotate(5deg); }
+    100% { transform: translateY(0) rotate(0); }
+}
+
+/* Keyframes for background and movement animation 4 */
+@keyframes animation4 {
+    0% { background-color: #fd79a8; transform: rotate(0deg); }
+    25% { background-color: #00cec9; transform: rotate(90deg); }
+    50% { background-color: #6c5ce7; transform: rotate(180deg); }
+    75% { background-color: #55efc4; transform: rotate(270deg); }
+    100% { background-color: #ff7675; transform: rotate(360deg); }
+}
+
+/* Keyframes for background and movement animation 5 */
+@keyframes animation5 {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Apply background and movement animation to all animated headers */
+.animated-header {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center text vertically */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    color: #fff;
+    text-align: center;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition: transform 0.3s;
+}
+
+/* Add styling for images within animated headers */
+.animated-header img {
+    width: 50px; /* Increased size */
+    height: 50px; /* Increased size */
+    margin-right: 10px;
+}
+
+/* Styling for the first animated header */
+.animated-header.animated-header-1 {
+    background: linear-gradient(to bottom right, #f3a683, #ff7f50); /* Gradient background */
+    animation-name: animation1; /* Use animation 1 */
+}
+
+/* Styling for the second animated header */
+.animated-header.animated-header-2 {
+    background: linear-gradient(to bottom right, #74b9ff, #55efc4); /* Gradient background */
+    animation-name: animation2; /* Use animation 2 */
+}
+
+/* Styling for the third animated header */
+.animated-header.animated-header-3 {
+    background: linear-gradient(to bottom right, #00cec9, #fd79a8); /* Gradient background */
+    animation-name: animation3; /* Use animation 3 */
+}
+
+/* Styling for the fourth animated header */
+.animated-header.animated-header-4 {
+    background: linear-gradient(to bottom right, #a29bfe, #ff7675); /* Gradient background */
+    animation-name: animation4; /* Use animation 4 */
+}
+
+/* Styling for the fifth animated header */
+.animated-header.animated-header-5 {
+    background: linear-gradient(to bottom right, #ffeaa7, #fd79a8); /* Gradient background */
+    animation-name: animation5; /* Use animation 5 */
+}

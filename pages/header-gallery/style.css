@@ -1,0 +1,56 @@
+/* Set background color for the body */
+body {
+    background-color: #a79dea; /* Light purple background */
+    font-family: 'Comic Sans MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the static headers */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+/* Style the image within static headers */
+.header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* Styling for the first static header */
+.header.header-1 {
+    background: linear-gradient(to bottom right, #e056fd, #f9ca24); /* Gradient background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+/* Styling for the second static header */
+.header.header-2 {
+    background: linear-gradient(to bottom right, #ff7675, #74b9ff); /* Gradient background */
+    border: 2px solid #2d3436; /* Border */
+}
+
+/* Styling for the third static header */
+.header.header-3 {
+    background: linear-gradient(to bottom right, #6c5ce7, #00cec9); /* Gradient background */
+    font-style: italic; /* Italic text */
+}
+
+/* Styling for the fourth static header */
+.header.header-4 {
+    background: linear-gradient(to bottom right, #fd79a8, #a29bfe); /* Gradient background */
+    text-transform: uppercase; /* Uppercase text */
+}
+
+/* Styling for the fifth static header */
+.header.header-5 {
+    background: linear-gradient(to bottom right, #55efc4, #ffeaa7); /* Gradient background */
+    font-weight: bold; /* Bold text */
+}
